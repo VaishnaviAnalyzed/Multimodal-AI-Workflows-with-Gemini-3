@@ -8,7 +8,7 @@ import textwrap
 
 st.set_page_config(page_title='Gemini-3 LLM Bootcamp', page_icon="🤖", layout='wide')
 
-os.environ['GEMINI_API_KEY'] = 'AIzaSyAoYdNU6QmBlEP-H7oKiHX1WFIb20-XGfE'
+os.environ['GEMINI_API_KEY'] = ''
 
 import google.generativeai as genai
 genai.configure(api_key=os.environ['GEMINI_API_KEY'])
