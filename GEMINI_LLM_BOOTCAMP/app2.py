@@ -5,7 +5,7 @@ from PIL import Image
 import datetime
 
 # --- CONFIGURATION ---
-API_KEY = ""
+API_KEY = "YOUR_ACTUAL_API_KEY_HERE"
 client = genai.Client(api_key=API_KEY)
 
 st.set_page_config(page_title="Gemini 3 Full Hub", layout="wide")
